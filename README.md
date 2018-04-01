@@ -11,6 +11,7 @@ Clone or download repository from `git@github.com:NoelleDL/airport_challenge.git
 There are two classes in this simulation - airport and weather.
 
 **Airport**
+
 Airports approve requests for take_off and land methods only if the weather is sunny and if the hangar is not full. Airports are initialized with a hangar. The hangar capacity can be set upon initialization. The default capacity is 2.
 
 `airport.take_off(plane, weather)`
@@ -19,13 +20,14 @@ Airports approve requests for take_off and land methods only if the weather is s
 `airport = Airport.new(10)`
 
 **Weather**
+
 The weather will be either sunny or stormy.
 
 weather.forecast
 
 ## Testing
 
-Tests are run using `rspec` from the command line. Install Rspec using `bundle install`. 
+Tests are run using `rspec` from the command line. Install Rspec using `bundle install`.
 
 ### User Stories
 
