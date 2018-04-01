@@ -15,8 +15,11 @@ There are two classes in this simulation - airport and weather.
 Airports approve requests for take_off and land methods only if the weather is sunny and if the hangar is not full. Airports are initialized with a hangar. The hangar capacity can be set upon initialization. The default capacity is 2.
 
 `airport.take_off(plane, weather)`
+
 `airport.land(plane, weather)`
+
 `airport = Airport.new()`
+
 `airport = Airport.new(10)`
 
 **Weather**
