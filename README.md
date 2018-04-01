@@ -26,7 +26,7 @@ Airports approve requests for take_off and land methods only if the weather is s
 
 The weather will be either sunny or stormy.
 
-weather.forecast
+`weather.forecast`
 
 ## Testing
 
