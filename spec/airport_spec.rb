@@ -1,10 +1,11 @@
 require 'airport'
-
+Create a dummy airport object with the stubbed method booze that returns the symbol gin.
 describe Airport do
   subject(:airport) { Airport.new }
   let (:dummy_plane) { double :plane }
-  let (:dummy_weather_sunny) { double :weather, forecast: :sunny}
-  let (:dummy_weather_stormy) { double :weather, forecast: :stormy}
+  let (:dummy_weather_sunny) { double :weather, forecast: :sunny }
+  let (:dummy_weather_stormy) { double :weather, forecast: :stormy }
+  
 
   describe '#land' do
     it 'instructs plane to land at airport if forecast is sunny' do
